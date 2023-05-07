@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Jardines2023.Entidades.Entidades
 {
-    internal class Pais
+    public class Pais
     {
+        public int PaisId { get; set; }
+        public string NombrePais { get; set; }
     }
 }

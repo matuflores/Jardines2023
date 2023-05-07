@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,6 +43,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorios\RepositorioPaises.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jardines2023.Datos.Comun\Jardines2023.Datos.Comun.csproj">
+      <Project>{412ebcf6-e3d8-430d-a8c3-b96d34ce74c7}</Project>
+      <Name>Jardines2023.Datos.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jardines2023.Entidades\Jardines2023.Entidades.csproj">
+      <Project>{d8efc118-eb0b-44ec-8972-53509b625bab}</Project>
+      <Name>Jardines2023.Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

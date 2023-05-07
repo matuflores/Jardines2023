@@ -43,5 +43,19 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jardines2023.Datos.Comun\Jardines2023.Datos.Comun.csproj">
+      <Project>{412ebcf6-e3d8-430d-a8c3-b96d34ce74c7}</Project>
+      <Name>Jardines2023.Datos.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jardines2023.Datos.Sql\Jardines2023.Datos.Sql.csproj">
+      <Project>{9057bc13-1f84-416e-b72c-6a9f67471d52}</Project>
+      <Name>Jardines2023.Datos.Sql</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jardines2023.Entidades\Jardines2023.Entidades.csproj">
+      <Project>{d8efc118-eb0b-44ec-8972-53509b625bab}</Project>
+      <Name>Jardines2023.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -34,13 +34,14 @@
             // 
             // btnPaises
             // 
-            this.btnPaises.Location = new System.Drawing.Point(68, 71);
+            this.btnPaises.Location = new System.Drawing.Point(42, 33);
             this.btnPaises.Name = "btnPaises";
             this.btnPaises.Size = new System.Drawing.Size(116, 101);
             this.btnPaises.TabIndex = 0;
             this.btnPaises.Text = "Paises";
             this.btnPaises.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPaises.UseVisualStyleBackColor = true;
+            this.btnPaises.Click += new System.EventHandler(this.btnPaises_Click);
             // 
             // btnCancelar
             // 
@@ -51,17 +52,18 @@
             this.btnCancelar.Text = "CANCELAR";
             this.btnCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnPaises);
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmPrincipal";
             this.ResumeLayout(false);
 
         }

@@ -3,6 +3,7 @@ using Jardines2023.Entidades.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,7 +34,28 @@ namespace Jardines2023.Datos.Sql.Repositorios
 
         public List<Pais> GetPaises()
         {
-            throw new NotImplementedException();
+            List<Pais> lista= new List<Pais>();
+            using (var _conn=new SqlConnection(cadenaConexion))
+            {
+                _conn.Open();
+                var selectQuery = "SELECT * FROM Paises ORDER BY NombrePais";
+                using (var comando=new SqlCommand(selectQuery,_conn))
+                {
+                    using (var reader=comando.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var pais = new Pais()
+                            {
+                                PaisId = reader.GetInt32(0),
+                                NombrePais=reader.GetString(1)
+                            };
+                            lista.Add(pais);
+                        }
+                    }
+                }
+                return lista;
+            }
         }
     }
 }

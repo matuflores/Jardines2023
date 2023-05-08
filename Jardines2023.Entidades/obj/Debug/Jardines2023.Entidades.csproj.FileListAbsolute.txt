@@ -1,0 +1,6 @@
+D:\INSTI 2023\SEMINARIO DE PROGRAMACION\PRACTICA\03-Jardines2023\Jardines2023\Jardines2023.Entidades\bin\Debug\Jardines2023.Entidades.dll
+D:\INSTI 2023\SEMINARIO DE PROGRAMACION\PRACTICA\03-Jardines2023\Jardines2023\Jardines2023.Entidades\bin\Debug\Jardines2023.Entidades.pdb
+D:\INSTI 2023\SEMINARIO DE PROGRAMACION\PRACTICA\03-Jardines2023\Jardines2023\Jardines2023.Entidades\obj\Debug\Jardines2023.Entidades.csproj.AssemblyReference.cache
+D:\INSTI 2023\SEMINARIO DE PROGRAMACION\PRACTICA\03-Jardines2023\Jardines2023\Jardines2023.Entidades\obj\Debug\Jardines2023.Entidades.csproj.CoreCompileInputs.cache
+D:\INSTI 2023\SEMINARIO DE PROGRAMACION\PRACTICA\03-Jardines2023\Jardines2023\Jardines2023.Entidades\obj\Debug\Jardines2023.Entidades.dll
+D:\INSTI 2023\SEMINARIO DE PROGRAMACION\PRACTICA\03-Jardines2023\Jardines2023\Jardines2023.Entidades\obj\Debug\Jardines2023.Entidades.pdb

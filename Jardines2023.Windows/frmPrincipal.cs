@@ -16,5 +16,16 @@ namespace Jardines2023.Windows
         {
             InitializeComponent();
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnPaises_Click(object sender, EventArgs e)
+        {
+            frmPaises frm=new frmPaises();
+            frm.ShowDialog();
+        }
     }
 }
